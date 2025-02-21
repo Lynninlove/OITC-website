@@ -1,0 +1,168 @@
+/* Large Version */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .oitc_content h2 {
+        font-size: 42px;
+    }
+    .timelineBody {
+        max-height: 545px;
+    }
+    .team-member-thumb {
+        width: 150px;
+        height: 150px;
+    }
+    .post-meta p a {
+        margin-right: 15px;
+    }
+    .post-title h4 {
+        font-size: 20px;
+    }
+    .achived-cert-item {
+        padding: 20px;
+    }
+}
+
+
+/* Medium Version */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .welcome_oitc {
+        min-height: 700px !important;
+    }
+    .welcome_single_slider.height-900 {
+        height: 700px;
+    }
+    .oitc_content.oitc {
+        margin-top: 170px
+    }
+    .oitc_content h2 {
+        font-size: 30px;
+    }
+    .timelineBody {
+        max-height: 640px;
+    }
+}
+
+
+/* Mobile Version */
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .oitc_content h1 {
+        font-size: 33px;
+    }
+    .oitc_content {
+        margin-top: 90px
+    }
+    .banner-box {
+        margin-right: -100px;
+        margin-left: -100px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .oitc_content h2 {
+        font-size: 24px;
+    }
+    .oitc_content p {
+        font-size: 14px;
+    }
+    .oitc-btn {
+        min-width: 130px;
+        padding: 0 20px;
+        font-size: 10px;
+    }
+    .single_cool_fact {
+        margin-bottom: 30px;
+    }
+    .classy-navbar {
+        height: 60px;
+    }
+    .who-we-are h4 {
+        font-size: 24px;
+    }
+    .sonar {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    .section-heading h2 {
+        font-size: 24px;
+    }
+    .post-meta p a {
+        margin-right: 15px;
+    }
+    .post-title h4 {
+        font-size: 20px;
+    }
+    .contact_info_area {
+        margin-top: 0px;
+    }
+    .footer-copywrite-info {
+        margin-bottom: 30px
+    }
+    .footer-side-thumbnail {
+        width: 100%;
+    }
+    .welcome_single_slider.height-900 {
+        height: 600px;
+    }
+    #scrollUp {
+        bottom: 100px;
+        right: 0;
+    }
+    .service-video-area {
+        margin-top: 0;
+    }
+    .timelineBody .timeline {
+        padding: 1em;
+    }
+    .timelineBody .timeline .timelineDate {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50px;
+        flex: 0 0 50px;
+        padding: 0;
+    }
+    .breadcumb--con {
+        padding-top: 60px;
+    }
+    .sidebar-area {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .sonar {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .oitc_content h2 {
+        font-size: 30px;
+    }
+    .oitc-btn {
+        min-width: 160px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    .achived-cert-item:after {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .oitc_content h2 {
+        font-size: 36px;
+    }
+    .oitc-btn {
+        min-width: 160px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    .achived-cert-item:after {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mr-im {
+        margin-right: 15px
+    }
+}
