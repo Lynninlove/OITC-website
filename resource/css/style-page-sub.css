@@ -1,0 +1,178 @@
+/*******************************************************/
+
+
+/************** ## Working Process Area ***************/
+
+
+/*******************************************************/
+
+.bgc-blue {
+    background-color: #021433;
+}
+
+.working-process-area .features-bg:before {
+    background: #F3F6F9;
+}
+
+.working-process .accordion-item {
+    border: none;
+}
+
+.working-process .accordion-item .accordion-header .accordion-button {
+    width: 100%;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #5B5B5B;
+    padding: 25px 45px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+    .working-process .accordion-item .accordion-header .accordion-button {
+        padding: 15px 25px;
+    }
+}
+
+.working-process .accordion-item .accordion-header .accordion-button .step {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin-right: 4%;
+    font-weight: 500;
+    padding: 1px 16px;
+    border-radius: 30px;
+    border: 1px solid rgba(2, 20, 51, 0.1);
+}
+
+@media only screen and (max-width: 767px) {
+    .working-process .accordion-item .accordion-header .accordion-button .step {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .working-process .accordion-item .accordion-header .accordion-button .step {
+        display: none;
+    }
+}
+
+.working-process .accordion-item .accordion-header .accordion-button .title {
+    font-size: 35px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+    .working-process .accordion-item .accordion-header .accordion-button .title {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .working-process .accordion-item .accordion-header .accordion-button .title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .working-process .accordion-item .accordion-header .accordion-button .title {
+        font-size: 18px;
+    }
+}
+
+.working-process .accordion-item .accordion-header .accordion-button .icon {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    line-height: 50px;
+    text-align: center;
+    margin-left: auto;
+    border-radius: 50%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border: 1px solid rgba(2, 20, 51, 0.1);
+}
+
+@media only screen and (max-width: 767px) {
+    .working-process .accordion-item .accordion-header .accordion-button .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.working-process .accordion-item .accordion-header .accordion-button:after {
+    display: none;
+}
+
+.working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .title {
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 991px) {
+    .working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .title {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .title {
+        font-size: 18px;
+    }
+}
+
+.working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .icon {
+    color: white;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #FC5546;
+    border-color: #FC5546;
+}
+
+.working-process .accordion-item .accordion-body {
+    padding: 15px 45px 50px 0px;
+    margin-left: calc(91px + 4%);
+}
+
+@media only screen and (max-width: 991px) {
+    .working-process .accordion-item .accordion-body {
+        padding: 0 25px 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .working-process .accordion-item .accordion-body {
+        margin-left: 0;
+    }
+}
+
+.working-process .accordion-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.accordion-button:focus {
+    outline: none !important;
+}
