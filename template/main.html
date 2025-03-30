@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="../resource/css/responsive.css">
     <link rel="stylesheet" href="../resource/css/flaticon.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet">
 
 </head>
 
@@ -808,7 +808,9 @@
     <!-- script js -->
     <script src="../resource/js/script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+    <script src="../resource/js/custom-owl.js"></script>
 
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"
             aria-hidden="true"></i></a>
@@ -888,7 +890,8 @@
             $(".owl-carousel-1").owlCarousel({
                 loop: true, // Loop through the items
                 nav: false, // Show next/prev buttons
-                autoplay: true, // Auto play the carousel
+                autoplay: true,
+                dots: false,
                 autoplayTimeout: 3000, // Delay for autoplay
                 items: 1,
                 autoplayHoverPause: true
@@ -898,9 +901,11 @@
             $(".owl-carousel-5").owlCarousel({
                 loop: true, // Loop through the items
                 nav: false, // Show next/prev buttons
+                dots: false,
                 autoplay: true, // Auto play the carousel
-                autoplayTimeout: 800, // Delay for autoplay
-                lazyload: true,
+                autoplayTimeout: 0,
+                autoplaySpeed: 2000, // Delay for autoplay
+                slideTransition: 'linear',
                 // autoplayHoverPause: true // Pause autoplay on hover
                 responsive: {
                     0: {
@@ -917,11 +922,13 @@
 
             $("#owl-carousel-5-center").owlCarousel({
                 center: true,
-                lazyload: true,
                 loop: true, // Loop through the items
                 nav: false, // Show next/prev buttons
+                dots: false,
                 autoplay: true, // Auto play the carousel
-                autoplayTimeout: 800, // Delay for autoplay
+                autoplayTimeout: 0,
+                autoplaySpeed: 2000, // Delay for autoplay
+                slideTransition: 'linear',
                 // autoplayHoverPause: true // Pause autoplay on hover
                 responsive: {
                     0: {
